@@ -1,0 +1,1 @@
+Run main.py to fine-tune the LLaMA-7B model on CL benchmark.
