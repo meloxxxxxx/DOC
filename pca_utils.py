@@ -3,12 +3,7 @@ import numpy as np
 
 class pcaMonitor:
     def __init__(self, k_start=48, k_add=48, drift_eps=0.05, add_eps=0.1, l=2, max_drift_bias = 0.01, p = 1):
-        """
-        Args:
-            k_start: 初始主成分数量
-            k_add: 每次新任务增加的成分名额
-            eps: 残差阈值比例
-        """
+
         self.k_start = k_start
         self.k = k_start  # maximum principal component number
         self.k_add = k_add
